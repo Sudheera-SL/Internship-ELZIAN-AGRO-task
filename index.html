@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Light Studio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-light px-0">
+            <div class="row gx-0">
+                    <div class="col-lg-3 bg-light d-none d-lg-block">
+                        <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                            <img class src="img/logo.jpg"  alt="Image" style="width: 150px; height: 75px;">
+                            <h3 class="m-0 text-blue text-uppercase ">Business consulting </h3>
+                        </a>
+                    </div>
+                    <nav class="navbar navbar-expand-lg bg-light navbar-light p-2 p-lg-0"> 
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                            <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>  
+                        <div class="collapse navbar-collapse text-uppercase text-center justify-content-md-end" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto py-0">
+                                <a href="about.html" class="nav-item nav-link active text-primary">About Us</a>
+                                <a href="Programs.html" class="nav-item nav-link text-primary">PROGRAMS</a>
+                                <a href="Finance.html" class="nav-item nav-link text-primary">FINANCE</a>
+                                <a href="resources.html" class="nav-item nav-link text-primary">RESOURCES</a>
+                                <a href="gallary.html" class="nav-item nav-link text-primary">GALLERY</a>  
+                                <a href="contact.html" class="nav-item nav-link text-primary">CONTACT</a>
+                                <a href="incubator.html" class="nav-item nav-link text-primary">INCUBATOR</a>    
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <button class="btn btn-outline-success rounded-pill me-md-2" type="button">LogIn</button>
+                                    <button class="btn btn-outline-success rounded-pill" type="button">Registor</button>
+                        </div>     
+                        </div>
+                           
+                             
+                    </nav>
+                </div>
+            </div>
+        </div>
+       
+        
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                 <h1 class="display-3 text-white mb-4 animated slideInDown">Light Studio</h1>
+                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Knowlage Hub</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Connected with Technology</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown">Better Solution for Your Business</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="align-items-center">
+                    <div>
+                        <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Light Studio</span></h1>
+                         <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
+                        <p>At Connect Business Solutions, we are dedicated to driving your business forward by providing innovative solutions and unmatched expertise. We understand that in today's fast-paced, ever-evolving business landscape, you need a reliable partner to help you navigate challenges and seize opportunities. That's where we come in.</p>
+                        <div class="row g-3 pb-4">
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="border rounded p-1">
+                                    <div class="border rounded text-center p-4"> 
+                                        <h2 class="mb-1" data-toggle="counter-up">+100</h2>
+                                        <p class="mb-0">Network</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="border rounded p-1">
+                                    <div class="border rounded text-center p-4"> 
+                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                        <p class="mb-0">Staffs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="border rounded p-1">
+                                    <div class="border rounded text-center p-4">
+                                        <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                        <p class="mb-0">Clients</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     
+         
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">Our services</h6>
+                    <h1 class="mb-5">What we <span class="text-primary text-uppercase">Do</span></h1>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="p-4 mt-2">
+                                <h5 class="mb-0">Creatting Brands</h5>
+                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="p-4 mt-2">
+                                    <h5 class="mb-0">Counsnsilting</h5>
+                                     <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="p-4 mt-2">
+                                <h5 class="mb-0">Giving a theory</h5>
+                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p> 
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary rounded-pill me-md-2" type="button">Contact Us</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         
+        <div class="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="image">
+                        
+                        <img class="img-fluid" src="img/img3.jpg" alt="Image">
+                            <span></span>
+                         
+                    </div>
+                </div>
+                <div class="col-md-6 bg-dark d-flex align-items-center">
+                    <div class="p-5">
+                        <h1 class="text-white mb-4">Growing your Business</h1>
+                        <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>   
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--saff start-->
+        <div class="container-xxl py-4">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5">Meet Our <span class="text-primary text-uppercase">Team</span></h1>
+                </div>
+                <h6 class="section-title text-primary text-uppercase">Our Staffs</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-5">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img" src="img/team1.jpg" alt="">
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img" src="img/team-3.jpg" alt="">
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="rounded shadow overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img" src="img/team-4.jpg" alt="">
+                            </div>
+                            <div class="text-center p-4 mt-3">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- plan Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5">Price<span class="text-primary text-uppercase"> Plan</span></h1>
+                </div>
+                <h6 class="section-title text-primary text-uppercase">Choose best Plan for you</h6>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-7 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="plan-item rounded" href="">
+                            <h5 class="mb-3 text-center">Basic plan</h5>
+                            <p class="text-body mb-0 text-center ">Erat ipsum justo amet duo et elitr dolor.</p>
+                            <h4 class="mb-2 text-center">299 $</h4>
+                            <div>
+                                <li>Branding </li>
+                                <li>20 hours of consultation</li>
+                                <li>15 hours if theory</li>
+                                <li>Skype video call</li>
+                                <li>Support 24/7</li>
+                            </div>
+                            <button class="btn btn-outline-danger rounded-pill me-md-2" type="button">Choose Plan</button>
+                        </a>
+                   
+                            
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="plan-item rounded" href="">
+                            <h5 class="mb-3 text-center">Standard plan </h5>
+                            <p class="text-body mb-0 text-center">Erat ipsum justo amet duo et elitr dolor.</p>
+                            <h4 class="mb-2 text-center">299 $</h4>
+                            <div>
+                                <li>Branding </li>
+                                <li>20 hours of consultation</li>
+                                <li>15 hours if theory</li>
+                                <li>Skype video call</li>
+                                <li>Support 24/7</li>
+                            </div>
+                            <button class="btn btn-outline-danger rounded-pill me-md-2" type="button">Choose Plan</button>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="plan-item rounded" href="">
+                            <h5 class="mb-3 text-center">Premium plan </h5>
+                            <p class="text-body mb-0 text-center">Erat ipsum justo amet duo et elitr dolor.</p>
+                            <h4 class="mb-2 text-center">299 $</h4>
+                            <div>
+                                <li>Branding </li>
+                                <li>20 hours of consultation</li>
+                                <li>15 hours if theory</li>
+                                <li>Skype video call</li>
+                                <li>Support 24/7</li>
+                            </div>
+                            <button class="btn btn-outline-danger rounded-pill me-md-2" type="button">Choose Plan</button>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- plan End -->
+
+        <!--user detail-->
+             <div class="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="image">  
+                        <img class="img-fluid" src="img/img4.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="col-md-6 bg-white d-flex align-items-center">
+                    <div class="p-4">
+                        <h4 class="text-dark mb-3">Contact us to disuss your project with us</h4>
+                        <p class="text-body">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem</p> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text">Subject</li>
+                            <li class="list-group-item">Phone Number </li>
+                            <li class="list-group-item">E-mail</li>
+                            <li class="list-group-item"></li>
+                        </ul>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                    <button class="btn btn-outline-success rounded-pill me-md-2" type="button">Submit</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <!--user detail -->
+
+         <!-- Newsletter Start -->
+        <div class="container newsletter mt-5 ">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 border rounded p-1">
+                    <div class="border rounded text-center p-1">
+                        <div class="bg-dark rounded text-center p-5">
+                            <h4 class="mb-4 text-white">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+                                <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                                <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  end -->
+        
+
+
+        <!--Customer reviews  -->
+        <div class="container newsletter mt-5 ">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5">Coustomer <span class="text-primary text-uppercase">Review</span></h1>
+                    <h6 class="section-title text-primary text-uppercase">Leve your Review</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        </div>       
+        <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="owl-carousel testimonial-carousel py-5">
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure d</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--coustomer Review end-->
+
+        <!--Latest articles-->
+        <h4 class="mb-4 text-dark">Latest <span class="text-primary text-uppercase">Articals</span></h4>
+        <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="p-4 mt-2">
+                                <img src="img/carousel-2.jpg" class="img-fluid img-thumbnail" alt="Image">
+                                <h5 class="mb-0">Navigating Business Challenges</h5>
+                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="p-4 mt-2">
+                                    <img src="img/img4.jpg" class="img-fluid img-thumbnail" alt="Image">
+                                    <h5 class="mb-0">The Power of Business Counseling</h5>
+                                     <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="p-4 mt-2">
+                                <img src="img/carousel-2.jpg" class="img-fluid img-thumbnail" alt="Image">
+                                <h5 class="mb-0">Thrive with Expert Advice</h5>
+                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p> 
+                            </div>
+                            
+                    </div>
+                </div>
+
+
+
+
+        <div class="container newsletter mt-5 ">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class=" text-center">
+                        <div class="bg-white rounded text-center p-5">
+                            <h6 class="text-start text-primary text-center text-uppercase mb-4">Business consulting agency</h6>
+                              <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation. </p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Start -->
+
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container pb-4">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4">
+                    <div class="bg-dark rounded p-4">
+                      <img class src="img/logo.jpg"  alt="Image" style="width: 250px; height: 180px;" align="align-items-center">
+                      </div> 
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>LightStudio.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="row gy-5 g-4">
+                            <div class="col-md-6">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
+                                <a class="btn btn-link" href="">About Us</a>
+                                <a class="btn btn-link" href="">Contact Us</a>
+                                <a class="btn btn-link" href="">Privacy Policy</a>
+                                <a class="btn btn-link" href="">Terms & Condition</a>
+                                <a class="btn btn-link" href="">Support</a>
+                                <a class="btn btn-link" href="">Terms & Condition</a>
+                                <a class="btn btn-link" href="">Overview</a>
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
+                                <a class="btn btn-link" href="">Access to Finance</a>
+                                <a class="btn btn-link" href="">Reports</a>
+                                <a class="btn btn-link" href="">Gallary</a>
+                                <a class="btn btn-link" href="">Market Linkage Programs</a>
+                                <a class="btn btn-link" href="">Techno Entrepreneurship</a>
+                   </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Light Studio</a>, All Right Reserved. 
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
